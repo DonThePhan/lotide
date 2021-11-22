@@ -4,11 +4,11 @@ const assertEqual = function(actual, expected) {
 
 };
 
-const head = function (array) {
+const tail = function (array) {
   return array[0]
 }
  
-assertEqual(head([5,6,7]), 5);
-assertEqual(head([]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head(["Hi", "Lighthouse", "Labs"]), "Hello");
+assertEqual(tail([5,6,7]), 5);
+assertEqual(tail([]), 5);
+assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(tail(["Hi", "Lighthouse", "Labs"]), "Hello");
