@@ -7,7 +7,7 @@ const eqArrays = function(array1, array2) {
   return true;
 };
 
-const assertArrayEqual = function(array1, array2) {
+const assertArraysEqual = function(array1, array2) {
   if (eqArrays(array1, array2)) {
     console.log(`✅✅✅ Assertion PASSED: ${JSON.stringify(array1)} === ${JSON.stringify(array2)}`);
   } else {
@@ -15,7 +15,7 @@ const assertArrayEqual = function(array1, array2) {
   }
 };
 
-assertArrayEqual([ 1, 2, 3 ], [ 1, 2, 3 ]);
-assertArrayEqual([ 1, 2, 3 ], [ 2, 2, 3 ]);
-assertArrayEqual([ '1', '2', '3' ], [ '1', '2', '3' ]);
-assertArrayEqual([ '1', '2', '3' ], [ '1', '2', 3 ]);
+assertArraysEqual([ 1, 2, 3 ], [ 1, 2, 3 ]);
+assertArraysEqual([ 1, 2, 3 ], [ 2, 2, 3 ]);
+assertArraysEqual([ '1', '2', '3' ], [ '1', '2', '3' ]);
+assertArraysEqual([ '1', '2', '3' ], [ '1', '2', 3 ]);
