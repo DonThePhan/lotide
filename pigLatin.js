@@ -4,7 +4,9 @@ const convertToPigLatin = function() {
 		pigLatinArray.push(`${process.argv[i].slice(1)}${process.argv[i][0]}ay`);
 	}
 
-	console.log(pigLatinArray.join(' '));
+	return (pigLatinArray.join(' '));
 };
 
-convertToPigLatin();
+module.exports = convertToPigLatin
+
+// convertToPigLatin();

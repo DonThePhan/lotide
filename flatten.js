@@ -6,4 +6,6 @@ const flatten = function(array, memo = []) {
   return memo;
 };
 
-console.log(flatten([ 1, 2, [ 3, [ 1, 2, [ 2, [ 1, 5, 7 ], 8, 4 ] ] ], 5, [ 6 ] ]));
+module.exports = flatten
+
+// console.log(flatten([ 1, 2, [ 3, [ 1, 2, [ 2, [ 1, 5, 7 ], 8, 4 ] ] ], 5, [ 6 ] ]));
