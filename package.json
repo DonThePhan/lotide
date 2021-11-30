@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a mini clone lodash",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/DonThePhan/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Donny Phan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DonThePhan/lotide/issues"
@@ -23,5 +23,8 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "my-package": "0.0.0"
   }
 }
